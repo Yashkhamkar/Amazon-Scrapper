@@ -1,0 +1,14 @@
+{
+  "name": "Amazon Scrapper",
+  "description": "It scrapes data from Amazon like product titil and product image and saves it in excel sheet",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_logo": "amazon.png"
+  },
+  "icons": {
+    "128": "amazon.png"
+  },
+  "permissions": ["activeTab", "scripting"]
+}

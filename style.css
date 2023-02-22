@@ -1,0 +1,70 @@
+body {
+  width: 400px;
+  height: 500px;
+  background-color: rgba(5, 131, 117, 0.5);
+}
+.text {
+  text-align: center;
+  /* color: aliceblue; */
+}
+button {
+  background-color: #022a45;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.spinner {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -16px;
+  margin-top: -16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  -webkit-animation: spin 3s linear infinite;
+  animation: spin 3s linear infinite;
+}
+ul#dataList li {
+  margin-bottom: 20px;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+button#saveDataButton {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #022a45;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button#saveDataButton:hover {
+  background-color: #022a45;
+}
+
+.hidden {
+  display: none;
+}
